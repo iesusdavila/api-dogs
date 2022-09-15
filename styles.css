@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #005f6f;
+  color: #fffcf5;
+  font-family: "Bellota Text", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #e3498e;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 0px 6px 2px white;
+  background-color: #195e8f;
+}
+
+#randomDogs,
+#favoritesDogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+#randomDogs article,
+#favoritesDogs article {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+  width: 200px;
+}
+
+#randomDogs button,
+#favoritesDogs button {
+  margin: 15px auto 20px auto;
+  box-shadow: 2px 2px 1px 0px #6da0a9;
+  background: linear-gradient(to bottom, #32c8e3 5%, #0c7c91 100%);
+  background-color: #e070a2;
+  border-radius: 5px;
+  border: 1px solid #32c8e3;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 9px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b8336f;
+}
+
+#randomDogs button:hover,
+#favoritesDogs button:hover {
+  background: linear-gradient(to bottom, #e3498e 5%, #e070a2 100%);
+  background-color: #e3498e;
+}
+
+#randomDogs button:active,
+#favoritesDogs button:active {
+  position: relative;
+  top: 1px;
+}
+
+#prevBoton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#prevBoton p {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+#prevBoton #btnReload {
+  margin-left: 15px;
+  box-shadow: 2px 2px 1px 0px #6da0a9;
+  background: linear-gradient(to bottom, #067d4d 5%, #169360 100%);
+  background-color: #e070a2;
+  border-radius: 5px;
+  border: 1px solid #32c8e3;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 9px;
+  text-shadow: 0px 1px 0px #b8336f;
+}
+
+#prevBoton #btnReload:hover {
+  background: linear-gradient(to bottom, #078778 5%, #0f9081 100%);
+  background-color: #e3498e;
+}
+
+#prevBoton #btnReload:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (min-width: 1024px) {
+  div#contentPage {
+    display: inline-flex;
+    flex-direction: row;
+  }
+}
