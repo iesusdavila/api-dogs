@@ -38,6 +38,12 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  background-color: #0f9081;
+  width: 280px;
+  height: 345px;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 img {
@@ -50,7 +56,7 @@ img {
 
 #randomDogs button,
 #favoritesDogs button {
-  margin: 15px auto 20px auto;
+  margin: 15px auto auto auto;
   box-shadow: 2px 2px 1px 0px #6da0a9;
   background: linear-gradient(to bottom, #32c8e3 5%, #0c7c91 100%);
   background-color: #e070a2;
