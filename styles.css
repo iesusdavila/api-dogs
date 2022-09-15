@@ -42,7 +42,10 @@ h2 {
 
 img {
   display: block;
-  width: 200px;
+  width: 250px;
+  height: 250px;
+  border: 4px solid #111344;
+  border-radius: 10px;
 }
 
 #randomDogs button,
